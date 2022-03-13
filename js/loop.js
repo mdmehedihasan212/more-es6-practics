@@ -35,13 +35,3 @@ const object = dreamGirl[0].dream1.contactInfo[0].facebook.friendsList;
 for (const key of object) {
     console.log(key.name);
 };
-
-const numbers1 = [1, 2, 4, 6, 5, 10];
-const newArray = [];
-for (let i = 0; i < numbers1.length; i++) {
-    const element = numbers1[i];
-    const result = sum(element);
-    newArray.push(result);
-}
-
-console.log(newArray);
